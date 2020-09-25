@@ -1,0 +1,27 @@
+/*PHARMACY DASGBORD*/
+
+.pharmacy-dash li.current>a {
+        background: #1ADCB4 !important;
+}
+
+.pharmacy-dash-logo a{
+    background: #1ADCB4 !important;
+}
+
+.menu-active .pharmacy-dash-logo .logo{
+    color: #1ADCB4 !important;
+}
+.menu-active .pharmacy-dash-logo .logo:before{
+    background: #1ADCB4 !important;
+}
+.pharmacy-navbar menu-mobile-button{
+     background: #1ADCB4 !important;
+}
+
+.menu-active .navigation .pharmacy-dash>li:hover>a{
+    background: #1ADCB4 !important;
+}
+
+
+/*ADMIN DASHBORD*/
+

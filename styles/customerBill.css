@@ -1,0 +1,239 @@
+.col-sm-3 {
+	border: none !important;
+}
+
+.tbl_invoiceList td {
+	border: 1 solid !important;
+}
+
+
+
+
+.add-items {
+	margin-left: -16px;
+	margin-top: 12px;
+	margin-bottom: 15px;
+}
+
+#items-Area {
+	margin-left: 15px;
+	margin-bottom: 5px;
+	background-color: darkgray;
+	height: 72px;
+	padding: 5px;
+}
+
+#btn-additem {
+	margin: 22px 7px -2px 15px;
+	font-size: 20px;
+}
+
+table {
+	width: 100%;
+}
+
+table td,
+table th {
+	border: 1px solid black;
+	padding: 4px;
+	text-align: center;
+	height: 34px;
+}
+
+
+#btn-additems {
+	margin: 17px 6px 0px -3px;
+	font-size: 22px;
+}
+
+
+#tbl-contents,
+#tbl-footer {
+	margin-top: 10px;
+}
+
+
+.patient-list {
+	position: absolute;
+	left: 107px;
+	padding: 16px 0px;
+	color: #151212;
+	width: 221px;
+	z-index: 32;
+	font-size: 14px;
+	background-color: #fff;
+	display: none;
+	top: 25px;
+	border: 1px solid;
+	max-height: 200px;
+	overflow-x: auto;
+}
+
+.pat-det {
+	list-style: none;
+	font-size: 16px;
+	margin-left: -27px;
+}
+
+.pat-det li:hover {
+	background-color: blue;
+	color: #fff;
+	width: 96%;
+}
+
+.stockList {
+	position: absolute;
+	left: 30px;
+	padding: 7px 0px;
+	color: #151212;
+	z-index: 33;
+	font-size: 14px;
+	background-color: #fff;
+	display: none;
+	top: 62px;
+	border: 1px solid;
+	max-height: 200px;
+	min-height: 100px;
+	overflow-x: auto;
+	width: 89%;
+}
+
+
+.tbl_stockList th {
+	background: darkgray;
+}
+
+
+
+.productList {
+	position: absolute;
+	left: 20px;
+	padding: 7px 0px;
+	color: #151212;
+	z-index: 33;
+	font-size: 14px;
+	background-color: #fff;
+	display: none;
+	top: 61px;
+	border: 1px solid;
+	max-height: 180px;
+	overflow-x: auto;
+	width: 24%;
+}
+
+.prodList li {
+	list-style: none;
+	margin-left: -30px;
+}
+
+#div-additems {
+	text-align: center;
+}
+
+#div-additems p {
+	margin-top: 1%;
+	margin-left: -1%;
+}
+
+
+
+
+
+
+
+
+
+
+#tax-bill {
+	text-align: center;
+	height: 1cm;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#com-logo {
+	height: 4cm;
+	width: 20%;
+}
+
+#com-details {
+	text-align: center;
+}
+
+td,
+th {
+	padding: 2px;
+}
+
+th {
+	font-weight: 200;
+	font-size: 12px;
+	text-align: center;
+}
+
+#amtbeforebill {
+	width: 333px;
+}
+
+#totCgst,
+#totSgst,
+#totTaxAmount,
+#totAmount {
+	width: 67px;
+}
+
+#sign {
+	height: 2cm;
+	width: 11.3cm;
+	text-align: center;
+}
+
+#cust-details {
+	height: 4cm;
+	width: 60%;
+}
+
+#totamounbfBill {
+	width: 2.5cm;
+}
+
+#wtgsttotal {
+	width: 61px;
+	text-align: right;
+}
+
+#custmer-name h4,
+h5 {
+	margin-left: 30px;
+	margin-top: 2px;
+	margin-bottom: 8px;
+}
+
+#bill-no,
+#bill-date {
+	margin-left: 20px;
+}
+
+#hsncode {
+	width: 70px;
+}
+
+#slno {
+	width: 43px;
+}
+
+#itemname {
+	width: 14cm;
+}
+
+#unit {
+	width: 1cm;
+}
+
+#total {
+	width: 2.5cm;
+}
+
+#rateper {
+	width: 1.5cm;
+}

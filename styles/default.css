@@ -1,0 +1,359 @@
+.div-serchPatient {
+	position: absolute;
+	top: 4px;
+	left: -26px;
+}
+
+content-header {
+	text-align: center;
+}
+
+.addpatient-div {
+	margin-top: 40px;
+}
+
+.frm-groupAddPatient {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 2%;
+}
+
+.ptn-cntrlbut {
+	right: -58%;
+	top: 2%;
+}
+
+
+header {
+	background: #3D3BEE;
+	height: 58px;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+}
+
+#frm-addPatient {
+	display: none;
+	background: #F8F8F8;
+	border: 2px solid #3D3BEE;
+	height: 729px;
+	padding: 20px;
+	border-radius: 10px;
+	display: none;
+}
+
+
+#frm-addPatient input[type="text"],
+#frm-addPatient textarea,
+#frm-addPatient select {
+	width: 100%;
+}
+
+.content {
+	padding-top: 50px;
+}
+
+.service-box {
+	width: 100%;
+	color: #fff;
+	background: #3D3BEE;
+	padding: 20px;
+	text-align: center;
+}
+
+.service-box h4 {
+	font-size: 20px;
+}
+
+#frm-search {
+	display: none;
+	background: #F8F8F8;
+	border: 2px solid #3D3BEE;
+	height: 729px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#frm-patientsearch {
+	background: #F8F8F8;
+	border: 2px solid #3D3BEE;
+	height: 102px;
+	padding: 20px;
+	border-radius: 10px;
+	display: none;
+}
+
+.popConsultation {
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.popc-1 {
+	background: #fff;
+	position: absolute;
+	top: 25%;
+	left: 35%;
+	padding: 50px;
+}
+
+.popc-1 button {
+	margin-top: 11%;
+}
+
+.popc-1 h4 {
+	font-size: 40px;
+	font-weight: bold;
+	color: #3D3BEE;
+	margin-bottom: 8%;
+}
+
+.services {
+	margin-top: -3%;
+}
+
+.labpop {
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.labcon {
+	background: #fff;
+	position: absolute;
+	top: 15%;
+	left: 21%;
+	padding: 10px;
+	height: 469px;
+	width: 963px;
+}
+
+.main-list {
+	height: 470px;
+	background: #222;
+	width: 35%;
+	padding-top: 2%;
+	margin-left: -2%;
+	margin-top: -10px;
+	overflow-y: scroll;
+}
+}
+
+.main-list ul {
+	margin-left: -7%;
+}
+
+.main-list ul li {
+	font-size: 16px;
+	color: #fff;
+	padding: 5px 0;
+}
+
+.labcon h4 {
+	position: absolute;
+	left: 51%;
+	font-size: 27px;
+}
+
+.cat-list {
+	position: absolute;
+	top: 14%;
+	left: 35%;
+	border: 1px solid;
+	padding: 10px;
+	height: 333px;
+	width: 593px;
+	overflow-y: scroll;
+}
+
+.cat-lis-cat {
+	margin-left: 16%;
+}
+
+.cat-buttons {
+	position: absolute;
+	left: 76%;
+	top: 90%;
+
+}
+
+.test-sheet-hidden {
+	display: none;
+}
+
+.test-sheet-active {
+	display: block;
+}
+
+.popInPatientdiv {
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.popInPatient {
+	background: #fff;
+	position: fixed;
+	top: 26%;
+	left: 34%;
+	padding: 41px;
+	width: 485px;
+	height: 276px;
+
+}
+
+
+.popInPatient h4 {
+	font-size: 22px;
+	margin-top: -1%;
+	text-align: center;
+	color: #337ab7;
+	font-weight: bold;
+}
+
+
+.serviceBox a {
+	cursor: pointer;
+}
+
+.popSurgery {
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.divSurgery {
+	background: #fff;
+	position: absolute;
+	top: 25%;
+	left: 40%;
+	width: 359px;
+	padding: 33px;
+}
+
+#frm-SurgeryService ul li {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.popBabyCare {
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.divBabyCare {
+	background: #fff;
+	position: absolute;
+	top: 25%;
+	left: 40%;
+	width: 359px;
+	padding: 33px;
+}
+
+#frm-BabyCareService ul li {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+
+.popOtherServices {
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.divOtherServices {
+	background: #fff;
+	position: absolute;
+	top: 16%;
+	left: 40%;
+	height: 450px;
+	width: 400px;
+	padding: 33px;
+}
+
+#frm-otherService ul li {
+	font-weight: 600;
+	font-size: 16px;
+	height: 30px;
+}
+
+
+.popBillItems {
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.divBillItems {
+	background: #fff;
+	position: absolute;
+	top: 16%;
+	left: 26%;
+	height: 413px;
+	width: 746px;
+	padding: 33px;
+}
+
+#patient-report {
+	max-height: 235px;
+	overflow-x: auto;
+}
+
+.popupload{
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.divuploads{
+    background: #fff;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    height: 223px;
+    width: 388px;
+    padding: 33px;
+}
+
+.side-bar{
+	width: 20%;
+    height: 100%;
+    background-color: #2d353c;
+    position: absolute;
+    margin-top: -1px;
+}

@@ -1,0 +1,73 @@
+.popAddVendor {
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	z-index: 31;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.divAddVendor {
+	background: #fff;
+	position: absolute;
+	top: 25%;
+	left: 30%;
+	height: 310px;
+	width: 519px;
+	padding: 33px;
+}
+
+#frm-addDoctor input,
+#frm-addDoctor textarea {
+	width: 100%;
+}
+
+.popAddBrand {
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	z-index: 31;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.divAddBrand {
+	background: #fff;
+	position: absolute;
+	top: 25%;
+	left: 30%;
+	height: 315px;
+	width: 519px;
+	padding: 33px;
+}
+#frm-addDoctor input,
+#frm-addDoctor select {
+	width: 100%;
+}
+
+.popAddMedicine {
+	background: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	z-index: 31;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.divAddMedicine {
+	background: #fff;
+	position: absolute;
+	top: 25%;
+	left: 30%;
+	height: 270px;
+	width: 519px;
+	padding: 33px;
+}
+#frm-addDoctor input,
+#frm-addDoctor select {
+	width: 100%;
+}
+
+
+
